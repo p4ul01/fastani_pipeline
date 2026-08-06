@@ -1,0 +1,15 @@
+# CSV opcional usado para colorir o heatmap/dendrograma por grupo biologico.
+# Colunas aceitas:
+#   Genome              -> nome do arquivo do genoma (com ou sem extensao .fna/.fasta/.fa)
+#   Grupo                -> probiotico | patogenico | comensal | (qualquer outro texto)
+#   Pathotype_original   -> opcional; usado como fallback se "Grupo" estiver vazio
+#                           (reconhece termos como EHEC, STEC, ETEC, EPEC, EIEC, EAEC,
+#                            UPEC, ExPEC, APEC, NMEC, ABU -> classificados como "patogenico")
+#
+# Renomeie este arquivo para "grupos_template.csv" (ou passe --groups <caminho>)
+# e preencha com os genomas do seu proprio dataset.
+Genome,Grupo,Pathotype_original
+genome_001,probiotico,
+genome_002,patogenico,EHEC
+genome_003,comensal,
+genome_004,,UPEC

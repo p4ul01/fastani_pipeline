@@ -77,7 +77,7 @@ Em `results/`:
 
 ### ANI values
 
-- **ANI ≥ 95%**: mesma espécie (E. coli → Shigella é ~99%)
+- **ANI ≥ 95%**: mesma espécie
 - **ANI 90-95%**: espécie diferente do mesmo gênero
 - **ANI < 90%**: gênero diferente
 

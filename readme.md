@@ -95,7 +95,6 @@ Em `results/`:
 
 Se `possible_outliers.csv` tiver pares com ANI < 95%, investigar:
 
-- Contaminação da cultura
 - Anotação taxonômica errada
 - Genoma incompleto (ver `orthologous_fraction` no `.out`)
 

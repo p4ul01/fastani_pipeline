@@ -24,7 +24,7 @@ pip install pandas numpy matplotlib seaborn scipy
 
 ```bash
 git clone https://github.com/p4ul01/fastani_pipeline
-cd fastani
+cd fastani_pipeline
 
 # Coloque seus genomas (.fna/.fasta/.fa) em ./genomes/
 mkdir -p genomes

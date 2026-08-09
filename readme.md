@@ -106,7 +106,7 @@ fastani/
 ├── analyze_fastani.py             # Parser + matplotlib/seaborn
 ├── README.md                      # Este arquivo
 ├── grupos_template.csv.example    # Modelo do CSV de grupos (opcional)
-├── genomes/                       # Coloque aqui seus .fna/.fasta/.fa (não versionado)
+├── genomes/                       # Coloque aqui seus .fna/.fasta/.fa
 └── results/                       # Gerado em runtime
     ├── fastani_output.out
     ├── fastani_matrix.csv

@@ -118,8 +118,6 @@ fastani/
     └── fastani.log
 ```
 
-> Dica: adicione `genomes/` e `results/` ao seu `.gitignore` para não versionar
-> dados de genoma e resultados gerados.
 
 ## Referências
 
